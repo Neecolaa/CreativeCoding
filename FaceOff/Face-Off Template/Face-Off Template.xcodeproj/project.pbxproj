@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		399F4ED7405CA45B3384FF43 /* Pods_Face_Off_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F54DEC03430FC9DCB8F253 /* Pods_Face_Off_Template.framework */; };
+		513381F0206C67B3003FC149 /* WorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513381EE206C67B3003FC149 /* WorkSpace.swift */; };
+		516B651A2072939D00768E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B65192072939D00768E95 /* AppDelegate.swift */; };
+		518429DB206C66E2007AFDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518429D9206C66E2007AFDBB /* Main.storyboard */; };
+		518429DD206C66E2007AFDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518429DC206C66E2007AFDBB /* Assets.xcassets */; };
+		518429E0206C66E2007AFDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518429DE206C66E2007AFDBB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		513381EE206C67B3003FC149 /* WorkSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkSpace.swift; sourceTree = "<group>"; };
+		516B65192072939D00768E95 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		518429D2206C66E2007AFDBB /* Face-Off Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face-Off Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518429DA206C66E2007AFDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518429DC206C66E2007AFDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		518429DF206C66E2007AFDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		518429E1206C66E2007AFDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F54DEC03430FC9DCB8F253 /* Pods_Face_Off_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Face_Off_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBB80CDF3066589C4C4AFE /* Pods-Face-Off Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face-Off Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Face-Off Template/Pods-Face-Off Template.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6B53363E57B94B5981A076 /* Pods-Face-Off Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face-Off Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Face-Off Template/Pods-Face-Off Template.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518429CF206C66E2007AFDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399F4ED7405CA45B3384FF43 /* Pods_Face_Off_Template.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C87DAE724F69141AEECB75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB80CDF3066589C4C4AFE /* Pods-Face-Off Template.debug.xcconfig */,
+				FA6B53363E57B94B5981A076 /* Pods-Face-Off Template.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		518429C9206C66E2007AFDBB = {
+			isa = PBXGroup;
+			children = (
+				518429D4206C66E2007AFDBB /* Face-Off Template */,
+				518429D3206C66E2007AFDBB /* Products */,
+				14C87DAE724F69141AEECB75 /* Pods */,
+				EEA969A9433F5E8E387C2D96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		518429D3206C66E2007AFDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518429D2206C66E2007AFDBB /* Face-Off Template.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518429D4206C66E2007AFDBB /* Face-Off Template */ = {
+			isa = PBXGroup;
+			children = (
+				516B65192072939D00768E95 /* AppDelegate.swift */,
+				513381EE206C67B3003FC149 /* WorkSpace.swift */,
+				518429D9206C66E2007AFDBB /* Main.storyboard */,
+				518429DC206C66E2007AFDBB /* Assets.xcassets */,
+				518429DE206C66E2007AFDBB /* LaunchScreen.storyboard */,
+				518429E1206C66E2007AFDBB /* Info.plist */,
+			);
+			path = "Face-Off Template";
+			sourceTree = "<group>";
+		};
+		EEA969A9433F5E8E387C2D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59F54DEC03430FC9DCB8F253 /* Pods_Face_Off_Template.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518429D1206C66E2007AFDBB /* Face-Off Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518429E4206C66E2007AFDBB /* Build configuration list for PBXNativeTarget "Face-Off Template" */;
+			buildPhases = (
+				C3946349692D06B854634EDA /* [CP] Check Pods Manifest.lock */,
+				518429CE206C66E2007AFDBB /* Sources */,
+				518429CF206C66E2007AFDBB /* Frameworks */,
+				518429D0206C66E2007AFDBB /* Resources */,
+				145BC9E905E7CFBF1A338129 /* [CP] Embed Pods Frameworks */,
+				7369F888B2F17C3CFCDF85E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Face-Off Template";
+			productName = "Face-Off Template";
+			productReference = 518429D2206C66E2007AFDBB /* Face-Off Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518429CA206C66E2007AFDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pasadena City College";
+				TargetAttributes = {
+					518429D1206C66E2007AFDBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 518429CD206C66E2007AFDBB /* Build configuration list for PBXProject "Face-Off Template" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518429C9206C66E2007AFDBB;
+			productRefGroup = 518429D3206C66E2007AFDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518429D1206C66E2007AFDBB /* Face-Off Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518429D0206C66E2007AFDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518429E0206C66E2007AFDBB /* LaunchScreen.storyboard in Resources */,
+				518429DD206C66E2007AFDBB /* Assets.xcassets in Resources */,
+				518429DB206C66E2007AFDBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145BC9E905E7CFBF1A338129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Face-Off Template/Pods-Face-Off Template-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/C4/C4.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/C4.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face-Off Template/Pods-Face-Off Template-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7369F888B2F17C3CFCDF85E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Face-Off Template/Pods-Face-Off Template-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3946349692D06B854634EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Face-Off Template-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518429CE206C66E2007AFDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516B651A2072939D00768E95 /* AppDelegate.swift in Sources */,
+				513381F0206C67B3003FC149 /* WorkSpace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		518429D9206C66E2007AFDBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518429DA206C66E2007AFDBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518429DE206C66E2007AFDBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518429DF206C66E2007AFDBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518429E2206C66E2007AFDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		518429E3206C66E2007AFDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518429E5206C66E2007AFDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFBB80CDF3066589C4C4AFE /* Pods-Face-Off Template.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Face-Off Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pasadenacitycollege.Face-Off-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		518429E6206C66E2007AFDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6B53363E57B94B5981A076 /* Pods-Face-Off Template.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Face-Off Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pasadenacitycollege.Face-Off-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518429CD206C66E2007AFDBB /* Build configuration list for PBXProject "Face-Off Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518429E2206C66E2007AFDBB /* Debug */,
+				518429E3206C66E2007AFDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518429E4206C66E2007AFDBB /* Build configuration list for PBXNativeTarget "Face-Off Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518429E5206C66E2007AFDBB /* Debug */,
+				518429E6206C66E2007AFDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518429CA206C66E2007AFDBB /* Project object */;
+}
